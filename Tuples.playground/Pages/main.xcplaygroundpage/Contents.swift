@@ -16,7 +16,7 @@
  */
 // write your code here
 
-
+var person = (name: "John", age: 32)
 
 
 
@@ -28,7 +28,7 @@
  */
 // write your code here
 
-
+print("\(person.name) is \(person.age) years old.")
 
 
 
@@ -41,7 +41,7 @@
 // write your code here
 
 
-
+person.age += 1
 
 
 
@@ -53,7 +53,7 @@
 // write your code here
 
 
-
+print("Happy \(person.age) birthday, \(person.name)!")
 
 
 
@@ -64,7 +64,7 @@
  */
 // write your code here
 
-
+var someone = (name: "Gina", age: 25)
 
 
 
@@ -77,7 +77,7 @@
 // write your code here
 
 
-
+print("\(someone.name) is \(someone.age) years old.")
 
 
 
@@ -88,7 +88,7 @@
 // write your code here
 
 
-
+someone.age += 1
 
 
 
@@ -101,7 +101,7 @@
 
 
 
-
+print("Happy \(someone.age) birthday, \(someone.name)!")
 
 
 
@@ -111,7 +111,7 @@
 // write your code here
 
 
-
+let human = (name: "Jane", age: 15)
 
 
 
@@ -122,7 +122,8 @@
  */
 
 
-
+// No
+// It is a constant
 
 
 
